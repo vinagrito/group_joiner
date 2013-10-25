@@ -1,0 +1,16 @@
+<h1>Welcome to group <%= @group_id %> </h1>
+
+<div id="group_image">
+  <%= image_tag group_image_or_default %>
+</div>
+
+<h3>Group description</h3>
+<p id="group_description"><%= group_description_or_default %></p>
+
+<div id="app_access">
+  <a href="#" id="go_to_app_btn" class="hidden">Go to group</a>
+  <a href="#" id="iphone_store_btn" class="hidden">App store</a>
+  <a href="#" id="android_store_btn" class="hidden">Google play</a>
+</div>
+
+
